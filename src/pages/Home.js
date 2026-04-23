@@ -3,7 +3,7 @@ import { Card } from "../components/Card";
 const samplePosts = [
   {
     id: 1,
-    title: "¿Qué pasó hoy en el campus? Confiesa de forma anónima…",
+    title: "¿Qué ocurrio hoy en el campus? Confiesa de forma anónima…",
     body: "Cuéntalo sin miedo. Nadie verá tu identidad y la comunidad podrá reaccionar y comentar.",
     tags: ["#Anónimo", "#Urgente"],
     metaLeft: "Usuario •",
