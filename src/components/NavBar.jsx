@@ -42,7 +42,14 @@ export function NavBar() {
 
         <nav className="hidden items-center gap-1 md:flex">
           {links.map((l) => (
-            <NavLink key={l.to} to={l.to} className={navLinkClass} end />
+            <NavLink
+              key={l.to}
+              to={l.to}
+              className={navLinkClass}
+              end={l.to === "/"}
+            >
+              {l.label}
+            </NavLink>
           ))}
         </nav>
 

@@ -10,10 +10,10 @@ import { Login } from "./pages/login";
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-slate-950 text-slate-100">
+      <div className="flex min-h-screen flex-col bg-slate-950 text-slate-100">
         <NavBar />
 
-        <main className="mx-auto w-full max-w-7xl px-4 py-6">
+        <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
